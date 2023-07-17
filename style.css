@@ -1,0 +1,74 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #348781;
+}
+h1, h2{
+    text-align: center;
+}
+h3{
+    padding: 35px;
+    font-size: 24px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.task, .form, .form_input, .wrapper, .list, .list_p, .list_check, .clear{
+    margin: 15px;
+}
+.task, .wrapper{
+    width: 900px;
+    box-shadow: 3px 3px 15px #245e5a;
+    margin: 0 auto;
+}
+.form, .list, .clear{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+button{
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin: 15px;
+    background-color: #245e5a;
+    color: #b5e2df;
+    font-size: 16px;
+
+}
+.form_input, .list_p{
+    max-width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.form_input{
+    background-color: #FFEEFF;
+    box-shadow: 1px 1px 5px #1c4744;
+    width: 70%;
+}
+.list{
+    box-shadow: 1px 1px 5px #1c4744;
+    height: 40px;
+}
+.list_p{
+    height: 35px;
+    width: 100%;
+    color:  #b5e2df;
+    font-size: 20px;
+    align-self: center;
+}
+.list_check{
+    height: 25px;
+    width: 25px;
+    box-shadow: 1px 1px 5px #1c4744;
+    align-self: center;
+}
+#divforlist{
+    border: 1px solid red;
+}

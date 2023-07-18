@@ -70,5 +70,7 @@ button{
     align-self: center;
 }
 #divforlist{
-    border: 1px solid red;
+    font-size: 40px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.137);
 }

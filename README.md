@@ -17,4 +17,4 @@
 
 ## Link
 
-[![link](./assets/img/1_1_icon.png)Planer](https://elena763.github.io/Planer/)
+Planer](https://elena763.github.io/Planer/)
